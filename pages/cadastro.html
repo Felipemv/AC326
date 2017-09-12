@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
 
@@ -39,7 +39,11 @@
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Cadastrar</h3>
+                       <h3 class="panel-title" style="height: 180%; vertical-align: middle; line-height:180%;"> Cadastrar
+                           <button type="button" class="btn btn-default btn-circle" style="float: right;">
+                               <i class="fa fa-mail-reply"></i>
+                           </button>
+                       </h3>
                     </div>
                     <div class="panel-body">
                         <form role="form">
@@ -56,6 +60,11 @@
                                 </div>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="Confirmar Senha" name="password" type="password" value="">
+                                </div>
+
+                                <div class="form-group">
+                                    <input name="tipo" type="radio" value="atleta"> Atleta
+                                    <input name="tipo" type="radio" value="patrocinador"> Patrocinador
                                 </div>
                                 
                                 <!-- Change this to a button or input when using this as a form -->
